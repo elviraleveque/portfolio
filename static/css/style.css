@@ -1,0 +1,169 @@
+:root {
+    --white: #F8F8FF;
+    --black: #000000;
+    --light-gray: #BDBDBD;
+    --dark-gray: #828282;
+
+    --purple: #6C63FC;
+
+    --corners: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--white);
+}
+
+.boxed {
+    margin: 0 10%;
+    padding: 50px 0;
+}
+
+button {
+    border: none;
+    background-color: var(--black); 
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: var(--white);
+    font-size: 1em;
+    cursor: pointer;
+}
+
+p {
+    font-weight: 200;
+}
+
+/* homepagee */
+
+#showcase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    row-gap: 20px;
+}
+
+.project {
+    flex: 1 0 30%;
+    height: 200px;
+    min-width: 250px;
+    border-radius: var(--corners);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.project img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.project-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: var(--corners);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.15s ease-in-out;
+}
+
+.project:hover .project-hover {
+    opacity: 1;
+}
+
+/* end homepage */
+
+
+
+/* projects */
+.cover {
+    background-color: #6C63FC;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover img {
+    height: 150px;
+}
+
+table.data {
+    width: 100%;
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+table.data td {
+    border-bottom: 1px solid var(--light-gray);
+    padding: 10px 10px;
+}
+
+table.data tr td:first-child {
+    width: 33%;
+    font-weight: 800;
+}
+
+table.data tr td:nth-child(2) {
+    color: var(--dark-gray);
+    font-weight: 200;
+}
+
+main.project-page p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 1.25em;
+}
+
+main.project-page h3 {
+    max-width: 700px;
+    margin: 2em auto .5em;
+    font-size: 2em;
+}
+
+main.project-page p a {
+    color: var(--purple);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+main.project-page span.highlight {
+    color: var(--purple);
+    font-weight: 500;
+}
+
+.mockup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5em auto 5em;
+    width: 80%;
+}
+
+.mockup>img {
+    width: 20%;
+    margin-top:2em;
+    box-shadow: 0 0 10px #423ca844;
+    border-radius: 1em;
+}
+
+/* end projects */
