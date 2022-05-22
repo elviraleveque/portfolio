@@ -1,0 +1,25 @@
+.cover img {
+    height: 220px;
+}
+
+.project-page #slides {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.project-page img {
+    display: block;
+    width: calc(50% - 10px);
+    border-radius: var(--corners);
+}
+
+.project-page img:last-child {
+    align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+    .project-page img { width: 100%;}
+}

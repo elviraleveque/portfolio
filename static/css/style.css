@@ -141,29 +141,12 @@ main.project-page h3 {
 }
 
 main.project-page p a {
-    color: var(--purple);
     font-weight: 500;
     text-decoration: underline;
 }
 
 main.project-page span.highlight {
-    color: var(--purple);
     font-weight: 500;
-}
-
-.mockup {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 5em auto 5em;
-    width: 80%;
-}
-
-.mockup>img {
-    width: 20%;
-    margin-top:2em;
-    box-shadow: 0 0 10px #423ca844;
-    border-radius: 1em;
 }
 
 /* end projects */
