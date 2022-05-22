@@ -1,5 +1,17 @@
+.cover {
+    background-color: #A8A8F5;
+}
+
 .cover img {
     height: 220px;
+}
+
+main.project-page p a {
+    color: var(--purple);
+}
+
+main.project-page span.highlight {
+    color: var(--purple);
 }
 
 .project-page #slides {
@@ -16,10 +28,17 @@
     border-radius: var(--corners);
 }
 
+video {
+    display: block;
+    width: calc(50% - 10px);
+    margin: 20px auto 0;
+    border-radius: var(--corners);
+}
+
 .project-page img:last-child {
     align-self: center;
 }
 
 @media screen and (max-width: 800px) {
-    .project-page img { width: 100%;}
+    .project-page img, video { width: 100%;}
 }
