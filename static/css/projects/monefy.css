@@ -1,0 +1,33 @@
+.cover {
+    background-color: #16C3A4;
+}
+
+main.project-page p a, main.project-page span.highlight {
+    color: #16C3A4;
+}
+
+.project-page img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: var(--corners);
+}
+
+.mockup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2em auto;
+    width: 80%;
+}
+
+.mockup>img {
+    width: 30%;
+    box-shadow: 0 0 10px #423ca844;
+    border-radius: 1em;
+}
+
+@media screen and (max-width: 800px) {
+    .mockup {width: 100%;}
+}

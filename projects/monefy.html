@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EL - Self Love Quotes</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/projects/monefy.css">
+
+</head>
+
+<body>
+    <nav>
+        <div id="logo">
+            <a href="../index.html">Elvira Leveque</a>
+        </div>
+        <div id="links">
+            <a href="#">Resume</a>
+            <a href="mailto:elviraleveque@hotmail.com">Contact me</a>
+        </div>
+    </nav>
+
+    <section class="cover">
+        <img src="../static/img/projects/monefy/logo.png" alt="">
+        <br>
+        <!-- <a href="https://github.com/elviraleveque/selfLoveQuotes" target="_blank"><button>View on GitHub</button></a> -->
+    </section>
+
+    <main class="project-page boxed">
+        <table class="data">
+            <tr>
+                <td>Product</td>
+                <td>iOS APP (restyling)</td>
+            </tr>
+            <tr>
+                <td>Client</td>
+                <td>Student project</td>
+            </tr>
+            <tr>
+                <td>Language</td>
+                <td>Swift</td>
+            </tr>
+            <tr>
+                <td>Softwares</td>
+                <td>Adobe XD, Xcode</td>
+            </tr>
+        </table>
+
+        <h3>About</h3>
+        <p>
+            <span class="highlight">Monefy</span> is an existing app that let you keep track of your
+            incomes and your expenses.
+        </p>
+
+        <p>
+            I started to use the app because I needed to figure out how I was using my money, and the free version of
+            this app was perfect since it has all the features I need: <br>
+            - Incomes and expenses tracking <br>
+            - Balance overview <br>
+            - Possibility to add and manage multiple accounts. <br>
+        </p>
+
+        <p>
+            In spite of that, from the first use of the application, you can immediately spot the <span
+                class="highlight">weaknesses of the UX</span> (and of the UI too).
+            That's why I decided to focus on three main screen of the app and try to improve it according to my vision.
+        </p>
+
+        <p>
+            Also, I wanted to improve my knowledge in <span class="highlight">data handling</span> using <span
+                class="highlight">SwiftUI</span>, therefore this application was ideal for my purposes.
+        </p>
+
+        <h3>Starting point and analysis</h3>
+        <p>
+            The screen I decided to focus on are: <br>
+            1) The first screen, with the <span class="highlight">general overview</span> <br>
+            2) The <span class="highlight">list</span> with all the transactions <br>
+            3) The screen through which is possble to <span class="highlight">add new transactions</span>.
+        </p>
+
+        <div class="mockup">
+            <img src="../static/img/projects/monefy/old1.png" alt="">
+            <img src="../static/img/projects/monefy/old2.png" alt="">
+            <img src="../static/img/projects/monefy/old3.png" alt="">
+        </div>
+
+        <p>
+            The first screen is visibly <span class="highlight">too messed up</span>: <br>
+            - The <span class="highlight">navigation bar</span> contains too many elements; in addition, the logo should
+            not be repeated within an app.
+            <br>
+            - The <span class="highlight">chart</span> in the center, in my opinion, is difficult to read and interpret
+            voluptuously, also because there are too many categories<br>
+            - Furthermore, in the middle there are two digits, respectively the money earned and the money spent in a
+            given period, information that I consider to be secondary to the <span class="highlight">balance</span>,
+            placed instead at the bottom
+            (that's also the way tou can access the list of all your transactions). <br>
+            - Finally the <span class="highlight">buttons at the bottom</span> to add a gain or an expense are
+            unsightly.
+        </p>
+
+        <p>
+            About the other two screens, the UX is quite ok, but a general restyle in design can give them a better look.
+        </p>
+
+        <h3>Final result</h3> 
+        <p>
+            This is the result of the UX and UI restyling I made:
+        </p>
+        <div class="mockup">
+            <img src="../static/img/projects/monefy/new1.png" alt="">
+            <img src="../static/img/projects/monefy/new2.png" alt="">
+            <img src="../static/img/projects/monefy/new3.png" alt="">
+        </div>
+
+        <p>
+            Here they are the main improvements:<br>
+            - The <span class="highlight">navigation bar</span> in now a lot more clean.<br>
+            - The <span class="highlight">chart</span> in the center now only returns the balance, that is also written in its center, while the detail of incomes and expenses are placed just below it. <br>
+            - A <span class="highlight">quick overview of the last transactions</span> is now present in the main screen, with the possibility to see the whole list by simply tapping on "Show all"<br>
+            - A <span class="highlight">single button</span> to add new transactions replaced the old two buttons, and it opens a <span class="highlight">modal view</span> istead of a new screen.<br>
+            - <span class="highlight">Colors</span> have been made brighter, so that the app has a more pleasant look.
+        </p>
+
+        <p></p>
+    </main>
+
+    <footer>
+        <p>Copyright © 2022 Elvira Leveque </p>
+    </footer>
+
+</body>
+
+</html>
