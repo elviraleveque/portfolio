@@ -1,0 +1,15 @@
+.cover {
+    background-color: #DDF3FE;
+}
+
+main.project-page p a, main.project-page span.highlight {
+    color: #489BDE;
+}
+
+.project-page video {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: var(--corners);
+}
