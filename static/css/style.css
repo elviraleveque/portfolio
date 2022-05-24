@@ -48,6 +48,15 @@ nav {
     padding: 20px 10%;
 }
 
+nav #links a:first-child {
+    margin-right: 10px;
+}
+
+nav #links a:hover {
+    text-decoration: underline;
+}
+
+
 #logo a {
     font-weight: 600;
     text-decoration: none;
