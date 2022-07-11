@@ -77,7 +77,7 @@ footer {
 /* homepagee */
 #bio {
     text-align: center;
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 img#io {
@@ -93,14 +93,14 @@ img#io {
 }
 
 #socials {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 #socials img {
     width: 30px;
-    opacity: 0.5;
+    opacity: 0.8;
     transition: all 0.3s ease-in-out;
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 #socials img:hover {
