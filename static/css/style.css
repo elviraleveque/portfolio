@@ -6,7 +6,7 @@
 
     --purple: #6C63FC;
 
-    --corners: 2em;
+    --corners: 1.5em;
 }
 
 * {
@@ -112,8 +112,10 @@ img#io {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px;
-    row-gap: 20px;
+    gap: 30px;
+    row-gap: 30px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .project {
@@ -121,7 +123,7 @@ img#io {
     height: 200px;
     min-width: 250px;
     border-radius: var(--corners);
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 30px rgba(36, 36, 36, 0.2);
     position: relative;
     overflow: hidden;
 }
@@ -194,8 +196,8 @@ table.data tr td:nth-child(2) {
 main.project-page p {
     max-width: 700px;
     margin: auto;
-    line-height: 1.5;
-    font-size: 1.25em;
+    line-height: 1.8;
+    font-size: 1.1em;
     margin-bottom: 2em;
 }
 

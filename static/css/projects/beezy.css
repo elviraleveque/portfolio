@@ -1,40 +1,35 @@
 .cover {
-    background-color: #DDF3FE;
+    background-color: #E13458;
 }
 
 main.project-page p a, main.project-page span.highlight {
-    color: #489BDE;
+    color: #E13458;
 }
 
-.project-page video {
+.project-page img {
     display: block;
     width: 100%;
-    max-width: 500px;
+    max-width: 1000px;
     margin: 20px auto;
     border-radius: var(--corners);
+    box-shadow: 0 0 10px #423ca844;
 }
 
-/* .mockup {
+.mockup {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 2em auto;
     width: 80%;
-} */
-
-.mockup {
     max-width: 1200px;
-    margin: auto;
 }
 
 .mockup>img {
-    display: block;
-    width: 80%;
+    width: 22%;
     box-shadow: 0 0 10px #423ca844;
     border-radius: 1em;
-    margin: 2em auto 0;
 }
 
 @media screen and (max-width: 800px) {
-    .mockup>img{width: 100%;}
+    .mockup {width: 100%;}
 }

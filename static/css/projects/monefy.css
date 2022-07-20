@@ -20,6 +20,7 @@ main.project-page p a, main.project-page span.highlight {
     justify-content: space-between;
     margin: 2em auto;
     width: 80%;
+    max-width: 1200px;
 }
 
 .mockup>img {
