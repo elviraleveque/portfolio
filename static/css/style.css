@@ -211,6 +211,10 @@ main.project-page h3 {
     font-size: 2em;
 }
 
+main.project-page img + h3, main.project-page p + h3 {
+    margin-top: 3em;
+}
+
 main.project-page p a {
     font-weight: 500;
     text-decoration: underline;
